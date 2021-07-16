@@ -1,0 +1,179 @@
+body{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: whitesmoke;
+    margin: 0;
+    position: static;
+}
+
+.logo{
+    height: 40px;
+    width: 50px;
+}
+nav{
+    background-color: limegreen;
+    color: white;
+}
+footer{
+    background-color: limegreen;
+    color: white;
+    padding: 5px;
+}
+li, a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-item,
+.contact{
+    padding-bottom: 5px;
+}
+.buy{
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    border-radius: 11px;
+    color: white;
+    font-weight: bolder;
+  
+}
+::placeholder, .submit{
+    background-color: white;
+    color: limegreen;
+    border: none;
+    padding: 2px;
+}
+input{
+    border: none;
+    padding: 2px;
+    margin-right: 2px;
+} 
+
+.shoes{
+   background-color: white;
+   text-align: center;
+   padding-bottom: 10px;
+   margin-bottom: 20px;
+}
+.section-1{
+    background-color: white;
+}
+p, h4{
+    font-weight: normal;
+    font-family: sans-serif;
+   
+}
+.number{
+    padding: 2px  20px 2px 5px;
+}
+
+
+ @media screen and (min-width: 768px)  {
+    .shirt{
+        display: flex;
+        line-height: 1.5;
+    }
+    .nav-list{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    .nav-item{
+        display: flex;
+        padding-right: 40px;
+        padding-bottom: 40px;
+    } 
+    .section-2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .shoes{
+        width: 45%;
+        margin: 20px;
+    }
+    h2{
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .container{
+        display: flex;
+        line-height: 1.5;
+        margin: 20px auto; 
+    }
+    .half{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .copyright{
+        text-align: center;
+    }
+    /* input, .submit{
+        padding: 10px 20px;
+        font-size: 20px;
+    } */
+    
+}
+
+
+@media screen and (min-width: 1000px) {
+    .section-2{
+        display: flex;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .shoes{
+        width: 31.33%;
+        margin: 10px auto;
+    }
+    .footer{
+        margin-top: 40px;
+    }
+    
+    .container{
+        margin: 0;
+        display: flex;
+    }
+    .half{ 
+        width: 65.99%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 0; 
+    }
+    .connect{
+        margin-top: -15px;
+    }
+    /* .connect{
+    width: 31.999%;
+    justify-self: flex-end;
+    }
+    .middle{
+    width: 31.999%;
+    justify-self: center;
+    
+    }
+    .side{
+    width: 32.999%;
+    justify-self: ;
+    
+    } */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
