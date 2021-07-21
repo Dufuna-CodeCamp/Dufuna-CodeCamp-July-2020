@@ -1,0 +1,8 @@
+{
+  "short_name": "ToDo App",
+  "name": "Hoopla App",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#316879, #f47a60, #7fe7dc",
+  "background_color": "#ced7d8"
+}
